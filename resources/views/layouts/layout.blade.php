@@ -16,7 +16,7 @@
     </div>
     <nav>
         <ul>
-            <li><a href="{{route('test.index')}}">Тест</a></li>
+            <li><a>Тест</a></li>
         </ul>
     </nav>
 </header>
