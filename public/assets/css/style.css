@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Constantia';
+    src: url('Constantia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'Constantia', sans-serif;
+    background-color: #FFFFFF;
+    color: black;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    border: black solid 2px;
+    margin: 10px;
+    padding: 10px 10px;
+    background-color: #405C73;
+    color:white;
+}
+
+
+.cards {
+    border: 2px solid #BFD6F6;
+    margin: 15px;
+    padding: 15px;
+}
+
+.card {
+    border: 2px solid #BFD6F6;
+    margin: 15px;
+    padding: 15px;
+}
+
+.namefont {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #BFD6F6;
+}
+
+.alert{
+
+}
+
+.alert-success{
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.external {
+    border: 1px black solid;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+
+}
+
+th {
+    flex-direction: column;
+}
+
+
+
+
+
